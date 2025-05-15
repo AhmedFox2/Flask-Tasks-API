@@ -1,6 +1,7 @@
 ## License
 
-This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+This project is licensed under a **custom license for educational and personal use only**.
 
-You may use or modify the code for **personal and educational purposes only**.  
-**Commercial use, redistribution, or monetization is strictly prohibited** without explicit permission.
+Commercial use, redistribution, or republishing of the source code is strictly prohibited without prior written permission from the author.
+
+See the [LICENSE](LICENSE) file for full details.
