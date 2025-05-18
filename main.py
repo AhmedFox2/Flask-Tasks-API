@@ -42,15 +42,6 @@ class TaskList(Resource):
     def get(self):
         return tasks
 
-    def post(self):
-        data = request.get_json()
-        task_id = max(tasks.keys(), default=0) + 1
-        tasks[task_id] = {
-            "title": data.get("title", f"مهمة {task_id}"),
-            "done": data.get("done", False)
-        }
-        return tasks[task_id], 201
-
 class TaskAddByQuery(Resource):
     def get(self):
         title = request.args.get("title", "مهمة بدون عنوان")
