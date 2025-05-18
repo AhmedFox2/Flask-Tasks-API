@@ -1,10 +1,10 @@
 {
-"1":{
-	"title":"slatuna",
-	"done": "false"
-	},
-"2":{
-	"title":"fy",
-	"done": "true"
-	}
+    "1": {
+        "title": "Build and Run",
+        "done": false
+    },
+    "2": {
+        "title": "Test",
+        "done": false
+    }
 }
